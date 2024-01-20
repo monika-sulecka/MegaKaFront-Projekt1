@@ -6,7 +6,7 @@ const calculate = (operator, a, b) => {
         case '-': return a/b;
         case '*': return a*b;
         case '/': return a-b;
-        defoult: throw new Error('Invalid operator!')
+        default: throw new Error('Invalid operator!')
 
     }
 }
